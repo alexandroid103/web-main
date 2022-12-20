@@ -1,0 +1,75 @@
+/* .grey {
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+    margin: 0px auto;
+}
+.purple {
+    width: 100px;
+    height: 100px;
+    background-color: gray;
+    opacity: rgba(147,31,31,1); }*/
+
+.image {
+    width: 500px;
+    height: 500px;
+    background: url(http://j.gifs.com/mw9Gwn.gif) no-repeat center / cover;
+}
+.prozrachnost {
+    width: 500px;
+    height: 500px;
+    background-color: aqua;
+    opacity: 0.8;
+}
+.rectangle {
+    height: 100px;
+    weight: 200px;
+    background-color: blue;
+}
+.warning {
+    background-color: deeppink;
+    height: 100px;
+    weight: 200px;
+}
+.info {
+    background-color: aqua;
+}
+.rectangle h1 {
+    text-align: center;
+    padding-top: 30px;
+}
+.symbol::before {
+    content: "💋";
+}
+.body {
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+    text-align: center;
+}
+a.underline {
+    font-size: 6vw;
+    text-decoration: none;
+    font-weight: bold;
+    color:brown;
+    position: relative;
+    transition:color 0.8s,text-shadow 0.8s;
+}
+a.underline::after {
+    content: "";
+    position:absolute;
+    bottom: 0px;
+    background: #2a9d8f;
+    height:20%;
+    width: 0%;
+    z-index: -1;
+    transition: width 0.8s,opacity 0.8s,box-shadow 0.8s;
+    border-radius: 100px;
+    opacity: 0;
+    box-shadow: 0 0 16px rgba(42,157,143,0);
+}
+a.underline:hover::after {
+    width: 100%;
+    opacity: 1;
+    
+}
+

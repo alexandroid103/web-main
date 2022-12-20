@@ -1,0 +1,22 @@
+body {
+    background: aquamarine;
+    text-align: center;
+}
+img {
+    width: 200px;
+    border-radius: 80px;
+}
+div {
+    background-color: black;
+    margin:20px;
+}
+.cube {
+    width: 100px;
+    height: 100px;
+}
+.yellow {
+    background-color: gold;
+}
+#transfo {
+    transform: rotate(45);
+}

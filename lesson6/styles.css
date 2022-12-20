@@ -1,0 +1,93 @@
+body {
+    background-color: rebeccapurple;
+}
+button {
+    /* Button */
+    border-radius: 80px;
+    font-family: "Montserat";
+    color:blueviolet;
+    position: absolute;
+    width: 343px;
+    height: 52px;
+    left: 16px;
+    top: 2100px;
+    background-color: darkred;
+    border: 10px darkgreen dotted;
+
+}
+fig1 {
+    /* Rectangle 4 */
+
+
+position: absolute;
+width: 581px;
+height: 80px;
+left: 414px;
+top: 202px;
+
+background: #855B86;
+
+}
+fig2 {position: absolute;
+    width: 408px;
+    height: 39px;
+    left: 396px;
+    top: 299px;
+    
+    background: #875C83;
+    
+}
+fig3 {/* Rectangle 7 */
+
+
+    position: absolute;
+    width: 237px;
+    height: 27px;
+    left: 414px;
+    top: 405px;
+    
+    background: #875C83;
+    
+    
+}
+fig4 {
+    /* Rectangle 8 */
+
+
+position: absolute;
+width: 240px;
+height: 18px;
+left: 710px;
+top: 405px;
+
+background: #875C83;
+
+}
+fig4 {
+    /* Rectangle 9 */
+
+
+position: absolute;
+width: 126px;
+height: 18px;
+left: 1020px;
+top: 405px;
+
+background: #875C83;
+
+}
+.android td {
+    color:gold;
+}
+table .android .phone::before {
+    content: "😁";
+}
+table .iphone .phone::before {
+    content: "🤡"
+}
+table  .price::before {
+    content: "💵"
+}
+th,td {
+    border: 1px solid;
+}
